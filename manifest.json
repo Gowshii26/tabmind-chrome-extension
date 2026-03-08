@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TabMind",
+  "version": "1.0",
+  "description": "Smart tab reminder extension",
+  "permissions": ["tabs", "storage", "notifications", "alarms"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
